@@ -46,6 +46,7 @@ public class Receita {
 
     public void exibirDespesa(Conta conta) {
         System.out.println("*****************");
+        System.out.println("Banco -> " + conta.getBanco());
         System.out.println("Descricao -> " + getDescricao());
         System.out.println("Categoria -> " + getCategoria());
         System.out.println("Valor da receita -> " + getValor());
